@@ -1,0 +1,67 @@
+.internship {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 25px;
+    cursor: pointer;
+    /* background-color: blueviolet; */
+    border: solid 3px rgb(169, 127, 209);
+    margin: 10px 20px;
+    padding: 7px;
+    border-radius: 5px;
+    user-select: none;
+    transition: background-color 0.3s,transform 0.2s; /* Smooth transition effect */
+  }
+  
+  .internship:hover {
+    background-color: rgb(138, 48, 223); /* Change the background color on hover */
+    color: azure;
+    transform: scale(1.01);
+    
+  }
+
+  /* Default button style */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0e0414; /* Blue-violet color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover effect */
+.btn:hover {
+  background-color: #ebddf3; /* Darker shade of blue-violet on hover */
+  transform: scale(1.05); /* Slight scale-up on hover */
+  color: #0e0414;
+}
+
+.internship img{
+  width: 90%;
+  height: 200px;
+  border-radius: 4;
+  border: solid black 2px;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+hr{
+  background-color: blueviolet;
+  height: 1px;
+}
+
+.definition{
+  font-size: 18px;
+  text-align: justify;
+  margin: 5%;
+}
+
+/* You can add more styles as needed, such as font-size, font-family, and box-shadow. */
+
+  
